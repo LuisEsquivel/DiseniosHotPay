@@ -1,0 +1,16 @@
+C:\Projects\Diseños\Diseños\Diseños\bin\Debug\netstandard2.0\Diseños.deps.json
+C:\Projects\Diseños\Diseños\Diseños\bin\Debug\netstandard2.0\Diseños.dll
+C:\Projects\Diseños\Diseños\Diseños\bin\Debug\netstandard2.0\Diseños.pdb
+C:\Projects\Diseños\Diseños\Diseños\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Projects\Diseños\Diseños\Diseños\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Projects\Diseños\Diseños\Diseños\obj\Debug\netstandard2.0\Diseños.csproj.CoreCompileInputs.cache
+C:\Projects\Diseños\Diseños\Diseños\obj\Debug\netstandard2.0\Diseños.AssemblyInfoInputs.cache
+C:\Projects\Diseños\Diseños\Diseños\obj\Debug\netstandard2.0\Diseños.AssemblyInfo.cs
+C:\Projects\Diseños\Diseños\Diseños\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Projects\Diseños\Diseños\Diseños\obj\Debug\netstandard2.0\Diseños.dll
+C:\Projects\Diseños\Diseños\Diseños\obj\Debug\netstandard2.0\Diseños.pdb
+C:\Projects\Diseños\Diseños\Diseños\obj\Debug\netstandard2.0\Diseños.csprojAssemblyReference.cache
+C:\Projects\Diseños\Diseños\Diseños\obj\Debug\netstandard2.0\Views\ContactPage.xaml.g.cs
+C:\Projects\Diseños\Diseños\Diseños\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Projects\Diseños\Diseños\Diseños\obj\Debug\netstandard2.0\Views\SendEmailPage.xaml.g.cs
+C:\Projects\Diseños\Diseños\Diseños\obj\Debug\netstandard2.0\Views\LastStepPage.xaml.g.cs

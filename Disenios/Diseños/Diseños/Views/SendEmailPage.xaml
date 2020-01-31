@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Diseños.Views.SendEmailPage">
+    <ContentPage.Content>
+
+        <ScrollView
+            Margin="0,150,0,0">
+
+            <StackLayout
+                Padding="5">
+
+                <Grid
+                    Margin="5"
+                    VerticalOptions="StartAndExpand"
+                    Padding="0">
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <Image Grid.Row="0"
+                           Source="ic_email3.png"
+                           HorizontalOptions="CenterAndExpand"
+                           HeightRequest="100"
+                           WidthRequest="100"
+                           />
+
+                    <StackLayout
+                        Grid.Row="1"
+                        Margin="0,20,0,0">
+
+                        <Label Text="Revisa tu correo electrónico."
+                               TextColor="#413333"    
+                               TranslationX="10"
+                               Font="45"
+                               FontAttributes="Bold"/>
+
+                        <Label Text="Te enviamos un correo electrónico con las instrucciones para recuperar tu cuenta, sigue los pasos."
+                               TranslationX="10"
+                               TranslationY="20"
+                               Font="20"
+                               FontAttributes="Bold"
+                               TextDecorations="None"/>
+                    </StackLayout>
+
+                    <StackLayout
+                        Grid.Row="2"
+                        Margin="0,100,0,0">
+
+                        <Button 
+                            Text="Continuar"
+                            BackgroundColor="#0f019e"
+                            TextColor="#ffffff"
+                            BorderRadius="23"/>
+
+                    </StackLayout>
+
+                </Grid>
+
+            </StackLayout>
+            
+        </ScrollView>
+        
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Diseños.Views.ContactPage">
+    <ContentPage.Content>
+
+        <StackLayout
+            Padding="5">
+
+            <Label
+                TranslationX="20"
+                TranslationY="150"
+                Text="Ingresa tu E-Mail."
+                Font="52"
+                FontAttributes="Bold">
+            </Label>
+
+            <Grid
+                VerticalOptions="Start">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+
+                <StackLayout
+                    Grid.Row="3">
+
+                    <Label Text="Correo electrónico" TranslationX="20"/>
+                    <Entry TextColor="Black"
+                           TranslationX="20"/>
+
+                    <Label Text="Confirmar correo electrónico"
+                           TranslationX="20"/>
+                    <Entry TextColor="Black"
+                           TranslationX="20"/>
+
+                    <Button
+                        Text="Continuar"
+                        TextColor="#ffffff"
+                        BackgroundColor="#0f019e"
+                        TranslationY="40"
+                        BorderRadius="50">
+
+                    </Button>
+                </StackLayout>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
