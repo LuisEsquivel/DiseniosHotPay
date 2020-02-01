@@ -4,5 +4,54 @@
              x:Class="Diseños.App">
     <Application.Resources>
 
+        <ResourceDictionary>
+
+
+            <x:String x:Key="UrlApi">https://plafonesapi.azurewebsites.net</x:String>
+            <x:String x:Key="UrlPrefix">/api</x:String>
+            <x:String x:Key="UrlPremiosController">/Premios</x:String>
+
+            <!--  Imágenes  -->
+            <OnPlatform
+                x:Key="recargarIcon"
+                x:TypeArguments="ImageSource"
+                Android="recargarIcon.png"
+                iOS="recargarIcon.png" />+
+
+            <OnPlatform
+                x:Key="agregarIcon"
+                x:TypeArguments="ImageSource"
+                Android="agregarIcon.png"
+                iOS="agregarIcon.png" />
+
+            <OnPlatform
+                x:Key="eliminarIcon"
+                x:TypeArguments="ImageSource"
+                Android="eliminarIcon.png"
+                iOS="eliminarIcon.png" />
+
+            <OnPlatform
+                x:Key="tarjetaIcon"
+                x:TypeArguments="ImageSource"
+                Android="tarjetaIcon.png"
+                iOS="tarjetaIcon.png" />
+
+            <OnPlatform
+                x:Key="codigodebarrasIcon"
+                x:TypeArguments="ImageSource"
+                Android="codigodebarrasIcon.png"
+                iOS="codigodebarrasIcon.png" />
+
+
+            <!--  Colores  -->
+
+            <Color x:Key="ColorPrincipal">#0F019E</Color>
+            <Color x:Key="ColorSecundario">#DB6244</Color>
+            <Color x:Key="Aro1">#9891d4</Color>
+            <Color x:Key="Aro2">#8981CB</Color>
+            
+
+        </ResourceDictionary>
+
     </Application.Resources>
 </Application>

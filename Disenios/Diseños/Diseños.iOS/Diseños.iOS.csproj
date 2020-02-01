@@ -157,4 +157,22 @@
       <Name>Diseños</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\agregarIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tarjetaIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\recargarIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ic_email.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\codigodebarrasIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\eliminarIcon.png" />
+  </ItemGroup>
 </Project>

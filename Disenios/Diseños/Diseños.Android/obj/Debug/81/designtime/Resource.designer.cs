@@ -2339,11 +2339,17 @@ namespace Diseños.Droid
 			// aapt resource value: 0x7F090053
 			public const int abc_vector_test = 2131296339;
 			
+			// aapt resource value: 0x7F010002
+			public const int agregarIcon = 2130771970;
+			
 			// aapt resource value: 0x7F090054
 			public const int avd_hide_password = 2131296340;
 			
 			// aapt resource value: 0x7F090055
 			public const int avd_show_password = 2131296341;
+			
+			// aapt resource value: 0x7F010003
+			public const int codigodebarrasIcon = 2130771971;
 			
 			// aapt resource value: 0x7F090056
 			public const int design_bottom_navigation_item_background = 2131296342;
@@ -2363,6 +2369,9 @@ namespace Diseños.Droid
 			// aapt resource value: 0x7F09005B
 			public const int design_snackbar_background = 2131296347;
 			
+			// aapt resource value: 0x7F010004
+			public const int eliminarIcon = 2130771972;
+			
 			// aapt resource value: 0x7F090054
 			public const int ic_audiotrack_dark = 2131296340;
 			
@@ -2375,14 +2384,14 @@ namespace Diseños.Droid
 			// aapt resource value: 0x7F090057
 			public const int ic_dialog_close_light = 2131296343;
 			
-			// aapt resource value: 0x7F010002
-			public const int ic_email = 2130771970;
+			// aapt resource value: 0x7F010005
+			public const int ic_email = 2130771973;
 			
-			// aapt resource value: 0x7F010003
-			public const int ic_email2 = 2130771971;
+			// aapt resource value: 0x7F010008
+			public const int ic_email2 = 2130771976;
 			
-			// aapt resource value: 0x7F010004
-			public const int ic_email3 = 2130771972;
+			// aapt resource value: 0x7F010009
+			public const int ic_email3 = 2130771977;
 			
 			// aapt resource value: 0x7F090058
 			public const int ic_group_collapse_00 = 2131296344;
@@ -3001,6 +3010,12 @@ namespace Diseños.Droid
 			
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
+			
+			// aapt resource value: 0x7F010006
+			public const int recargarIcon = 2130771974;
+			
+			// aapt resource value: 0x7F010007
+			public const int tarjetaIcon = 2130771975;
 			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;

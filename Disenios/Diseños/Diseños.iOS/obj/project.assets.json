@@ -556,7 +556,7 @@
   },
   "libraries": {
     "Xamarin.Forms/3.4.0.1008975": {
-      "sha512": "tM9syeev45u92OFENGjq+Zw8WiEwLJFiXe317XpL9SY2RRk9sm2fc1lDVjzwz0da+5ZP5fi24NAPsPQdxBdMwQ==",
+      "sha512": "036/h8HtzRFgTrfhY57IeHoYRsPTO2XTA6uUFdmZzw2QR1sdszfofhI9HrCJTRx6fCzmjPg5Cxk5chYrjKarNw==",
       "type": "package",
       "path": "xamarin.forms/3.4.0.1008975",
       "files": [
@@ -714,21 +714,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\uquiroz\\.nuget\\packages\\": {}
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {},
+    "C:\\ProgramData\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\Diseños\\Diseños\\Diseños.iOS\\Diseños.iOS.csproj",
+      "projectUniqueName": "C:\\Projects\\DiseniosHotPay\\SourceCode\\DiseniosHotPay\\Disenios\\Diseños\\Diseños.iOS\\Diseños.iOS.csproj",
       "projectName": "Diseños.iOS",
-      "projectPath": "C:\\Projects\\Diseños\\Diseños\\Diseños.iOS\\Diseños.iOS.csproj",
-      "packagesPath": "C:\\Users\\uquiroz\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\Diseños\\Diseños\\Diseños.iOS\\obj\\",
+      "projectPath": "C:\\Projects\\DiseniosHotPay\\SourceCode\\DiseniosHotPay\\Disenios\\Diseños\\Diseños.iOS\\Diseños.iOS.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "C:\\Projects\\DiseniosHotPay\\SourceCode\\DiseniosHotPay\\Disenios\\Diseños\\Diseños.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\ProgramData\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\uquiroz\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
@@ -740,8 +745,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Projects\\Diseños\\Diseños\\Diseños\\Diseños.csproj": {
-              "projectPath": "C:\\Projects\\Diseños\\Diseños\\Diseños\\Diseños.csproj"
+            "C:\\Projects\\DiseniosHotPay\\SourceCode\\DiseniosHotPay\\Disenios\\Diseños\\Diseños\\Diseños.csproj": {
+              "projectPath": "C:\\Projects\\DiseniosHotPay\\SourceCode\\DiseniosHotPay\\Disenios\\Diseños\\Diseños\\Diseños.csproj"
             }
           }
         }
