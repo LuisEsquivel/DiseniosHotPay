@@ -11,7 +11,7 @@ namespace Diseños
         public App()
         {
             InitializeComponent();
-            MainPage = new LastStepPage();
+            MainPage = new AvailableBalance();
         }
 
         protected override void OnStart()
