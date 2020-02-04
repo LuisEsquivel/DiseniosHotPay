@@ -45,11 +45,57 @@
 
             <!--  Colores  -->
 
-            <Color x:Key="ColorPrincipal">#0F019E</Color>
-            <Color x:Key="ColorSecundario">#DB6244</Color>
-            <Color x:Key="Aro1">#9891d4</Color>
-            <Color x:Key="Aro2">#8981CB</Color>
-            
+            <Color x:Key="ColorMain">#0F019E</Color>
+            <Color x:Key="ColorSecondary">#DB6244</Color>
+            <Color x:Key="ColorWhite">#FFFFFF</Color>
+            <Color x:Key="ColorBlack">#000000</Color>
+            <Color x:Key="ColorGray">#9BA09C</Color>
+            <Color x:Key="ColorAro1">#9891d4</Color>
+            <Color x:Key="ColorAro2">#8981CB</Color>
+
+
+            <!--  Styles For Labels  -->
+            <Style x:Key="LabelStylesTitles" TargetType="Label">
+                <Setter Property="HorizontalOptions" Value="Fill" />
+                <Setter Property="VerticalOptions"  Value="End" />
+                <Setter Property="Margin"  Value="12,0,12,0" />
+                <Setter Property="FontSize"  Value="50" />
+                <Setter Property="FontAttributes"  Value="Bold" />
+                <Setter Property="TextColor" Value="{StaticResource ColorBlack}" />
+            </Style>
+
+            <Style x:Key="LabelStyles" TargetType="Label">
+                <Setter Property="HorizontalOptions" Value="Fill" />
+                <Setter Property="VerticalOptions"  Value="End" />
+                <Setter Property="Margin"  Value="12,30,12,0" />
+                <Setter Property="FontSize"  Value="15" />
+                <Setter Property="FontAttributes"  Value="Bold" />
+                <Setter Property="TextColor" Value="{StaticResource ColorGray }" />
+            </Style>
+
+
+            <!--  Styles For Entrys  -->
+            <Style x:Key="EntryStyles" TargetType="Entry" >
+                <Setter Property="HorizontalOptions" Value="Fill" />
+                <Setter Property="VerticalOptions"  Value="End" />
+                <Setter Property="Margin"  Value="12,0,12,0" />
+                <Setter Property="FontSize"  Value="15" />
+                <Setter Property="PlaceholderColor"  Value="{StaticResource ColorGray}" />
+                <Setter Property="TextColor" Value="{StaticResource ColorBlack}" />
+            </Style>
+
+            <!--  Styles For Buttons  -->
+            <Style x:Key="ButtonStyles" TargetType="Button">
+                <Setter Property="HorizontalOptions" Value="Fill" />
+                <Setter Property="VerticalOptions"  Value="End" />
+                <Setter Property="Margin"  Value="12,50,12,0" />
+                <Setter Property="BorderRadius"   Value="20" />
+                <Setter Property="FontAttributes"  Value="None"  />
+                <Setter Property="BackgroundColor"  Value="{StaticResource ColorMain}"/>
+                <Setter Property="TextColor"  Value="{StaticResource ColorWhite}"/>
+            </Style>
+
+
 
         </ResourceDictionary>
 
