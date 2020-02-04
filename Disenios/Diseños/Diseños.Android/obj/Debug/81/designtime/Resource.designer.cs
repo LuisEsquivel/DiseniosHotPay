@@ -2387,11 +2387,11 @@ namespace Diseños.Droid
 			// aapt resource value: 0x7F010005
 			public const int ic_email = 2130771973;
 			
-			// aapt resource value: 0x7F010008
-			public const int ic_email2 = 2130771976;
+			// aapt resource value: 0x7F010010
+			public const int ic_email2 = 2130771984;
 			
-			// aapt resource value: 0x7F010009
-			public const int ic_email3 = 2130771977;
+			// aapt resource value: 0x7F010011
+			public const int ic_email3 = 2130771985;
 			
 			// aapt resource value: 0x7F090058
 			public const int ic_group_collapse_00 = 2131296344;
@@ -3012,10 +3012,16 @@ namespace Diseños.Droid
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
 			// aapt resource value: 0x7F010006
-			public const int recargarIcon = 2130771974;
+			public const int punto = 2130771974;
 			
 			// aapt resource value: 0x7F010007
-			public const int tarjetaIcon = 2130771975;
+			public const int recargarIcon = 2130771975;
+			
+			// aapt resource value: 0x7F010008
+			public const int Tarjeta = 2130771976;
+			
+			// aapt resource value: 0x7F010009
+			public const int tarjetaIcon = 2130771977;
 			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;

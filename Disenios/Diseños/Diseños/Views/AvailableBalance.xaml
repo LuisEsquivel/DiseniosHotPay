@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Diseños.Views.AvailableBalance">
+    <ContentPage.Content>
+
+        <StackLayout
+            BackgroundColor="#FAF9F9"
+            Padding="10">
+            <Image 
+                Source="Tarjeta.jpeg"/>
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Image
+                    Grid.Row="0"
+                   Source="punto.png"
+                   HeightRequest="25"
+                   WidthRequest="25"
+                   HorizontalOptions="Start"
+                   TranslationX="180"/>
+                <Image
+                    Grid.Row="0"
+                   Source="punto.png"
+                   HeightRequest="25"
+                   WidthRequest="25"
+                   HorizontalOptions="Start"
+                   TranslationX="160"/>
+                <Image
+                    Grid.Row="0"
+                   Source="punto.png"
+                   HeightRequest="25"
+                   WidthRequest="25"
+                   HorizontalOptions="Start"
+                   TranslationX="200"/>
+                <Label
+                    Grid.Row="1"
+                    HorizontalOptions="Center"
+                    Text="Saldo disponible"
+                    FontAttributes="Bold"
+                    Margin="0,10,0,0"/>
+
+                <StackLayout
+                    Margin="0,0,0,0"
+                    Grid.Row="2"
+                    HeightRequest="90"
+                    BackgroundColor="#ffffff">
+
+                    <Label
+                        HorizontalOptions="CenterAndExpand"
+                        Margin="0,20,0,0"
+                        Text="$500.00"
+                        Font="40"
+                        FontAttributes="Bold"
+                        TextColor="#0f019e"/>
+
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <BoxView
+                            HorizontalOptions="Start"
+                            Grid.Column="3"
+                            Grid.Row="2"
+                            BackgroundColor="Black">     
+                        </BoxView>
+
+                    </Grid>
+                    
+                    
+                </StackLayout>
+
+                
+
+            </Grid>
+            
+            
+            
+            
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>

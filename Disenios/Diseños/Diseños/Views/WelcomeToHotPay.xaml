@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Diseños.Views.WelcomeToHotPay">
+    <ContentPage.Content>
+        <ScrollView>
+
+            <Grid>
+                <BoxView Color="White"/>
+
+                <Grid
+                    VerticalOptions="CenterAndExpand">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <Label TranslationX="25" 
+                       Grid.Row="0" 
+                       Text="Bienvenido a HotPay" 
+                       Font="45" 
+                       FontAttributes="Bold"/>
+
+                    <StackLayout
+                        Grid.Row="2"
+                        Padding="30.20">
+
+                        <Button
+                            BackgroundColor="#0f019e"
+                            TextColor="White"
+                            Text="Ingresar"
+                            BorderRadius="23"
+                            FontAttributes="Bold"
+                            FontSize="Small">
+                        </Button>
+
+                        <Button
+                            BackgroundColor="White"
+                            BorderWidth="2"
+                            BorderRadius="20"
+                            TextColor="Blue"
+                            Text="Crear Cuenta"
+                            BorderColor="#0f019e"
+                            FontAttributes="Bold"
+                            FontSize="Small">
+                        </Button>
+                    </StackLayout>
+                </Grid>
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
