@@ -2,6 +2,7 @@
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Diseños.ViewsLuis;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace Diseños
@@ -11,7 +12,8 @@ namespace Diseños
         public App()
         {
             InitializeComponent();
-            MainPage = new AvailableBalance();
+            //MainPage = new LastStepPage();
+            MainPage = new RecoveryPassword ();
         }
 
         protected override void OnStart()
