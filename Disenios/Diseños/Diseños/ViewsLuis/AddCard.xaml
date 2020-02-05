@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Diseños.ViewsLuis.AddCard">
+    <ContentPage.Content>
+
+
+        <StackLayout>
+
+            <StackLayout>
+                <Image 
+                 Source="{StaticResource Tarjeta}" 
+                 >
+                    
+                </Image>
+                
+            </StackLayout>
+
+
+                <Label 
+                    Text="Datos de la tarjeta:"
+                    Style="{StaticResource LabelStyles}"/>
+
+                <Frame Style="{StaticResource FrameStyles}">
+
+                    <StackLayout>
+                        <Grid>
+
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="40" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+
+                            <Image Grid.Row="0" Grid.Column="0" Source="{StaticResource tarjetaIcon}" HorizontalOptions="Start" ></Image>
+                            <Entry
+                            Grid.Row="0" Grid.Column="1"
+                            Style="{StaticResource EntryStyles}"
+                            Placeholder="5512 0000 0000 0000"
+                            Keyboard="Numeric"
+                            />      
+                        </Grid>
+                    </StackLayout>
+                </Frame>
+        
+
+
+
+                <Grid>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+
+
+                    <Frame Grid.Row="0" Grid.Column="0" Style="{StaticResource FrameStyles}">
+                        <StackLayout>
+                            <Grid>
+
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*" />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                   <ColumnDefinition Width="40" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+
+                                <Image Source="{StaticResource recargarIcon}" HorizontalOptions="Start" Grid.Row="0" Grid.Column="0" ></Image>
+                                <DatePicker  Style="{StaticResource DatePickerStyles}"  Grid.Row="0" Grid.Column="1" Format="MMMMM"/>
+
+                            </Grid>
+                        </StackLayout>
+                    </Frame>
+
+
+                    <Frame Grid.Row="0" Grid.Column="1" Style="{StaticResource FrameStyles}">
+                        <StackLayout> 
+                            <Grid>
+
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*" />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="40" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+
+                                <Image Source="{StaticResource recargarIcon}" HorizontalOptions="Start" Grid.Row="0" Grid.Column="0" ></Image>
+                                <DatePicker  Style="{StaticResource DatePickerStyles}"  Grid.Row="0" Grid.Column="1"  Format="yyyy"/>
+
+                            </Grid>
+                        </StackLayout>
+                    </Frame>
+
+
+
+                </Grid> 
+
+
+
+            <StackLayout VerticalOptions="EndAndExpand">
+                <Button 
+                 Text="Agregar Tarjeta"
+                BackgroundColor="{StaticResource ColorMain}"
+                TextColor="{StaticResource ColorWhite}"
+                >
+                </Button>
+           </StackLayout>
+                
+        </StackLayout>
+
+
+    </ContentPage.Content>
+</ContentPage>

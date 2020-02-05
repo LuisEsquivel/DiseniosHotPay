@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Diseños.ViewsLuis.Filter"     
+             >
+    <ContentPage.Content>
+
+        <StackLayout >
+
+
+            <Label 
+                    Text="Tipo de transferencia:"
+                    Style="{StaticResource LabelStyles}"/>
+            
+            <Frame Style="{StaticResource FrameStyles}">
+
+            <StackLayout>
+
+                <Picker          
+                    Style="{StaticResource PickerStyles}"
+                    Title="Seleccionar tipo de transferecia"
+                    ItemsSource=""
+                    SelectedItem=""
+                 />
+
+
+            </StackLayout>
+
+
+            </Frame>
+
+
+            <Label 
+                    Text="Fecha"
+                    Style="{StaticResource LabelStyles}"/>
+
+
+            <Frame Style="{StaticResource FrameStyles}">
+
+                <StackLayout>
+                    <Grid>
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="40" />
+                        </Grid.ColumnDefinitions>
+
+                        <DatePicker    
+                         Grid.Row="0" Grid.Column="0"
+                        
+                         />
+
+                        <Image Grid.Row="0" Grid.Column="1" Source="{StaticResource tarjetaIcon}" HorizontalOptions="End" ></Image>
+
+                    </Grid>
+                </StackLayout>
+            </Frame>
+
+
+
+            <Frame Style="{StaticResource FrameStyles}">
+
+                <StackLayout>
+                    <Grid>
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="40" />
+                        </Grid.ColumnDefinitions>
+
+                    <DatePicker         
+                    Grid.Row="0" Grid.Column="0"
+                   
+                     
+                    />
+                        <Image Grid.Row="0" Grid.Column="1" Source="{StaticResource tarjetaIcon}" HorizontalOptions="End" ></Image>
+
+                    </Grid>
+                </StackLayout>
+            </Frame>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>
