@@ -240,6 +240,4 @@ C:\Projects\DiseniosHotPay\SourceCode\DiseniosHotPay\Disenios\Diseños\Diseños.
 C:\Projects\DiseniosHotPay\SourceCode\DiseniosHotPay\Disenios\Diseños\Diseños.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
 C:\Projects\DiseniosHotPay\SourceCode\DiseniosHotPay\Disenios\Diseños\Diseños.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 C:\Projects\DiseniosHotPay\SourceCode\DiseniosHotPay\Disenios\Diseños\Diseños.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
-C:\Projects\DiseniosHotPay\SourceCode\DiseniosHotPay\Disenios\Diseños\Diseños\bin\Debug\netstandard2.0\Diseños.dll
-C:\Projects\DiseniosHotPay\SourceCode\DiseniosHotPay\Disenios\Diseños\Diseños.Android\bin\Debug\Diseños.dll.mdb
 C:\Projects\DiseniosHotPay\SourceCode\DiseniosHotPay\Disenios\Diseños\Diseños.Android\obj\Debug\81\linksrc\Diseños.dll.mdb

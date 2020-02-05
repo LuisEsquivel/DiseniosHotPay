@@ -35,3 +35,4 @@ C:\Projects\DiseniosHotPay\SourceCode\DiseniosHotPay\Disenios\Diseños\Diseños\
 C:\Projects\DiseniosHotPay\SourceCode\DiseniosHotPay\Disenios\Diseños\Diseños\obj\Debug\netstandard2.0\ViewsLuis\AddCard.xaml.g.cs
 C:\Projects\DiseniosHotPay\SourceCode\DiseniosHotPay\Disenios\Diseños\Diseños\obj\Debug\netstandard2.0\Views\AvailableBalance.xaml.g.cs
 C:\Projects\DiseniosHotPay\SourceCode\DiseniosHotPay\Disenios\Diseños\Diseños\obj\Debug\netstandard2.0\Views\WelcomeToHotPay.xaml.g.cs
+C:\Projects\DiseniosHotPay\SourceCode\DiseniosHotPay\Disenios\Diseños\Diseños\obj\Debug\netstandard2.0\ViewsLuis\Filter.xaml.g.cs
