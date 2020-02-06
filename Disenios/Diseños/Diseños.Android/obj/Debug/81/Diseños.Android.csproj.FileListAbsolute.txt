@@ -199,7 +199,6 @@ C:\Projects\DiseniosHotPay\SourceCode\DiseniosHotPay\Disenios\Diseños\Diseños.
 C:\Projects\DiseniosHotPay\SourceCode\DiseniosHotPay\Disenios\Diseños\Diseños.Android\obj\Debug\81\res\drawable\foto.png
 C:\Projects\DiseniosHotPay\SourceCode\DiseniosHotPay\Disenios\Diseños\Diseños.Android\obj\Debug\81\res\drawable\perfil.png
 C:\Projects\DiseniosHotPay\SourceCode\DiseniosHotPay\Disenios\Diseños\Diseños.Android\obj\Debug\81\res\drawable\exit.png
-C:\Projects\DiseniosHotPay\SourceCode\DiseniosHotPay\Disenios\Diseños\Diseños.Android\obj\Debug\81\res\drawable\web_hi_res_512.png
 C:\Projects\DiseniosHotPay\SourceCode\DiseniosHotPay\Disenios\Diseños\Diseños.Android\obj\Debug\81\res\drawable\delete.png
 C:\Projects\DiseniosHotPay\SourceCode\DiseniosHotPay\Disenios\Diseños\Diseños.Android\obj\Debug\81\res\drawable\plus.png
 C:\Projects\DiseniosHotPay\SourceCode\DiseniosHotPay\Disenios\Diseños\Diseños.Android\obj\Debug\81\res\drawable-hdpi\delete.png
@@ -256,6 +255,11 @@ C:\Projects\DiseniosHotPay\SourceCode\DiseniosHotPay\Disenios\Diseños\Diseños.
 C:\Projects\DiseniosHotPay\SourceCode\DiseniosHotPay\Disenios\Diseños\Diseños.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
 C:\Projects\DiseniosHotPay\SourceCode\DiseniosHotPay\Disenios\Diseños\Diseños.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 C:\Projects\DiseniosHotPay\SourceCode\DiseniosHotPay\Disenios\Diseños\Diseños.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
+C:\Projects\DiseniosHotPay\SourceCode\DiseniosHotPay\Disenios\Diseños\Diseños.Android\obj\Debug\81\res\drawable-xxxhdpi\calendarioicon.png
+C:\Projects\DiseniosHotPay\SourceCode\DiseniosHotPay\Disenios\Diseños\Diseños.Android\obj\Debug\81\res\drawable-xxhdpi\calendarioicon.png
+C:\Projects\DiseniosHotPay\SourceCode\DiseniosHotPay\Disenios\Diseños\Diseños.Android\obj\Debug\81\res\drawable-xhdpi\calendarioicon.png
+C:\Projects\DiseniosHotPay\SourceCode\DiseniosHotPay\Disenios\Diseños\Diseños.Android\obj\Debug\81\res\drawable-hdpi\calendarioicon.png
+C:\Projects\DiseniosHotPay\SourceCode\DiseniosHotPay\Disenios\Diseños\Diseños.Android\obj\Debug\81\res\drawable\calendarioicon.png
 C:\Projects\DiseniosHotPay\SourceCode\DiseniosHotPay\Disenios\Diseños\Diseños\bin\Debug\netstandard2.0\Diseños.dll
 C:\Projects\DiseniosHotPay\SourceCode\DiseniosHotPay\Disenios\Diseños\Diseños.Android\bin\Debug\Diseños.dll.mdb
 C:\Projects\DiseniosHotPay\SourceCode\DiseniosHotPay\Disenios\Diseños\Diseños.Android\obj\Debug\81\linksrc\Diseños.dll.mdb

@@ -13,7 +13,7 @@ namespace Diseños
         {
             InitializeComponent();
             //MainPage = new LastStepPage();
-            MainPage = new Movements();
+            MainPage = new AddCard();
         }
 
         protected override void OnStart()

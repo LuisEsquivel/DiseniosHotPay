@@ -49,6 +49,12 @@
                 iOS="Tarjeta.jepg" />
 
             <OnPlatform
+                x:Key="calendarioIcon"
+                x:TypeArguments="ImageSource"
+                Android="calendarioIcon.png"
+                iOS="calendarioIcon.png" />
+
+            <OnPlatform
                 x:Key="ingresos"
                 x:TypeArguments="ImageSource"
                 Android="plus.png"

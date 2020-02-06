@@ -71,10 +71,10 @@
                                     <ColumnDefinition Width="*" />
                                 </Grid.ColumnDefinitions>
 
-                                <Image Source="{StaticResource recargarIcon}" HorizontalOptions="Start" Grid.Row="0" Grid.Column="0" ></Image>
-                                <DatePicker  Style="{StaticResource DatePickerStyles}"  Grid.Row="0" Grid.Column="1" Format="MMMMM"/>
+                                <Image Source="{StaticResource calendarioIcon}" HorizontalOptions="Start" Grid.Row="0" Grid.Column="0" ></Image>
+                               <Picker  Style="{StaticResource PickerStyles}"  Grid.Row="0" Grid.Column="1" />
 
-                            </Grid>
+                        </Grid>
                         </StackLayout>
                     </Frame>
 
@@ -91,8 +91,8 @@
                                     <ColumnDefinition Width="*" />
                                 </Grid.ColumnDefinitions>
 
-                                <Image Source="{StaticResource recargarIcon}" HorizontalOptions="Start" Grid.Row="0" Grid.Column="0" ></Image>
-                                <DatePicker  Style="{StaticResource DatePickerStyles}"  Grid.Row="0" Grid.Column="1"  Format="yyyy"/>
+                            <Image Source="{StaticResource calendarioIcon}" HorizontalOptions="Start" Grid.Row="0" Grid.Column="0" ></Image>
+                                <Picker  Style="{StaticResource PickerStyles}"  Grid.Row="0" Grid.Column="1" />
 
                             </Grid>
                         </StackLayout>
