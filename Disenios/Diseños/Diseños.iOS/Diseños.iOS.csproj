@@ -175,4 +175,10 @@
   <ItemGroup>
     <BundleResource Include="Resources\eliminarIcon.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\plus.png" />
+  </ItemGroup>
 </Project>
