@@ -157,6 +157,10 @@ C:\Projects\DiseniosHotPay\SourceCode\DiseniosHotPay\Disenios\Diseños\Diseños.
 C:\Projects\DiseniosHotPay\SourceCode\DiseniosHotPay\Disenios\Diseños\Diseños.Android\obj\Debug\81\res\drawable-xhdpi\logo.png
 C:\Projects\DiseniosHotPay\SourceCode\DiseniosHotPay\Disenios\Diseños\Diseños.Android\obj\Debug\81\res\drawable-xxhdpi\logo.png
 C:\Projects\DiseniosHotPay\SourceCode\DiseniosHotPay\Disenios\Diseños\Diseños.Android\obj\Debug\81\res\drawable-xxxhdpi\logo.png
+C:\Projects\DiseniosHotPay\SourceCode\DiseniosHotPay\Disenios\Diseños\Diseños.Android\obj\Debug\81\res\drawable\downarrow.png
+C:\Projects\DiseniosHotPay\SourceCode\DiseniosHotPay\Disenios\Diseños\Diseños.Android\obj\Debug\81\res\drawable-xhdpi\downarrow.png
+C:\Projects\DiseniosHotPay\SourceCode\DiseniosHotPay\Disenios\Diseños\Diseños.Android\obj\Debug\81\res\drawable-xxhdpi\downarrow.png
+C:\Projects\DiseniosHotPay\SourceCode\DiseniosHotPay\Disenios\Diseños\Diseños.Android\obj\Debug\81\res\drawable-xxxhdpi\downarrow.png
 C:\Projects\DiseniosHotPay\SourceCode\DiseniosHotPay\Disenios\Diseños\Diseños\bin\Debug\netstandard2.0\Diseños.dll
 C:\Projects\DiseniosHotPay\SourceCode\DiseniosHotPay\Disenios\Diseños\Diseños.Android\bin\Debug\Diseños.dll.mdb
 C:\Projects\DiseniosHotPay\SourceCode\DiseniosHotPay\Disenios\Diseños\Diseños.Android\obj\Debug\81\linksrc\Diseños.dll.mdb

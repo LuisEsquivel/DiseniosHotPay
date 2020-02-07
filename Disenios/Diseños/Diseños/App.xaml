@@ -72,6 +72,13 @@
                 Android="delete.png"
                 iOS="delete.png" />
 
+            <OnPlatform
+                x:Key="downarrow"
+                x:TypeArguments="ImageSource"
+                Android="downarrow.png"
+                iOS="downarrow.png" />
+
+            
 
             <!--  Colores  -->
 

@@ -21,15 +21,32 @@
 
             <StackLayout>
 
-                <Picker          
+                    <Grid>
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="40" />
+                        </Grid.ColumnDefinitions>
+
+
+
+                        <Picker Grid.Row="0" Grid.Column="0"      
                     Style="{StaticResource PickerStyles}"
                     Title="Seleccionar tipo de transferecia"
                     ItemsSource=""
                     SelectedItem=""
+                  
                  />
 
 
-            </StackLayout>
+                        <Image    Grid.Row="0" Grid.Column="1" Source="{StaticResource downarrow}" HorizontalOptions="End"></Image>
+
+                    </Grid>
+
+                </StackLayout>
 
 
             </Frame>
@@ -58,7 +75,7 @@
                         
                          />
 
-                        <Image Grid.Row="0" Grid.Column="1" Source="{StaticResource tarjetaIcon}" HorizontalOptions="End" ></Image>
+                        <Image Grid.Row="0" Grid.Column="1" Source="{StaticResource calendarioIcon}" HorizontalOptions="End" ></Image>
 
                     </Grid>
                 </StackLayout>
@@ -84,7 +101,7 @@
                    
                      
                     />
-                        <Image Grid.Row="0" Grid.Column="1" Source="{StaticResource tarjetaIcon}" HorizontalOptions="End" ></Image>
+                        <Image Grid.Row="0" Grid.Column="1" Source="{StaticResource calendarioIcon}" HorizontalOptions="End" ></Image>
 
                     </Grid>
                 </StackLayout>
