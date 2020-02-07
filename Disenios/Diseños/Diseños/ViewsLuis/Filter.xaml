@@ -85,6 +85,16 @@
                 </StackLayout>
             </Frame>
 
+
+            <Button 
+                Text="Continuar"
+                VerticalOptions="EndAndExpand" 
+                TextColor="{StaticResource ColorWhite }"
+                BackgroundColor="{StaticResource ColorMain }"
+              >
+                
+            </Button>
+
         </StackLayout>
 
     </ContentPage.Content>
