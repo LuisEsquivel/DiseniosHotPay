@@ -1,9 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Diseños.ViewsLuis.AddCard">
-    <ContentPage.Content>
+             x:Class="Diseños.ViewsLuis.AddCard"
+             >
 
+    <NavigationPage.TitleView>
+        <Label Text="Agregar Tarjeta" FontSize="50" FontAttributes="Bold" TextColor="{StaticResource ColorMain}"/>
+    </NavigationPage.TitleView>
+
+    <ContentPage.Content>
 
         <StackLayout>
 
@@ -71,10 +76,10 @@
                                     <ColumnDefinition Width="*" />
                                 </Grid.ColumnDefinitions>
 
-                                <Image Source="{StaticResource recargarIcon}" HorizontalOptions="Start" Grid.Row="0" Grid.Column="0" ></Image>
-                                <DatePicker  Style="{StaticResource DatePickerStyles}"  Grid.Row="0" Grid.Column="1" Format="MMMMM"/>
+                                <Image Source="{StaticResource calendarioIcon}" HorizontalOptions="Start" Grid.Row="0" Grid.Column="0" ></Image>
+                               <Picker  Style="{StaticResource PickerStyles}"  Grid.Row="0" Grid.Column="1" />
 
-                            </Grid>
+                        </Grid>
                         </StackLayout>
                     </Frame>
 
@@ -91,8 +96,8 @@
                                     <ColumnDefinition Width="*" />
                                 </Grid.ColumnDefinitions>
 
-                                <Image Source="{StaticResource recargarIcon}" HorizontalOptions="Start" Grid.Row="0" Grid.Column="0" ></Image>
-                                <DatePicker  Style="{StaticResource DatePickerStyles}"  Grid.Row="0" Grid.Column="1"  Format="yyyy"/>
+                            <Image Source="{StaticResource calendarioIcon}" HorizontalOptions="Start" Grid.Row="0" Grid.Column="0" ></Image>
+                                <Picker  Style="{StaticResource PickerStyles}"  Grid.Row="0" Grid.Column="1" />
 
                             </Grid>
                         </StackLayout>

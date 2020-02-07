@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Diseños.ViewsLuis.Movements"
+             >
+
+    <NavigationPage.TitleView>
+        <Label Text="Movimientos" FontSize="50" FontAttributes="Bold" TextColor="{StaticResource ColorMain}"/>
+    </NavigationPage.TitleView>
+    
+    <ContentPage.Content>
+
+        <StackLayout>
+
+            <Frame Style="{StaticResource FrameStyles}" HeightRequest="60">
+
+                <StackLayout>
+
+                    <Grid>
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="40" />
+                        </Grid.ColumnDefinitions>
+
+
+
+                        <Picker Grid.Row="0" Grid.Column="0"      
+                    Style="{StaticResource PickerStyles}"
+                    Title="Filtrar"
+                   
+                    SelectedItem=""
+                  
+                 />
+
+
+                        <Image    Grid.Row="0" Grid.Column="1" Source="{StaticResource downarrow}" HorizontalOptions="End"></Image>
+
+                    </Grid>
+
+                </StackLayout>
+
+
+            </Frame>
+
+
+            <ListView
+                HasUnevenRows="True"
+                RefreshCommand="{Binding RefreshCommand}"
+                ItemsSource="{Binding Premios}"
+                IsPullToRefreshEnabled="True" 
+                IsRefreshing="{Binding IsRefreshing}"
+                SeparatorVisibility="None"
+                >
+
+
+
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell >
+
+
+                        <StackLayout >
+
+
+                            <Label
+                                    FontSize="17"
+                                    TextColor="Gray"
+                                    FontAttributes="Bold"
+                                    Text="7 de Enero del 2020"
+                                    Margin="12,0,12,0"
+                                    IsVisible="True" />
+
+
+                            <Frame Style="{StaticResource FrameStyles}" >
+
+                                <StackLayout >
+
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto"/>
+                                            <ColumnDefinition Width="2*"/>
+
+
+                                        </Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="12"/>
+                                        </Grid.RowDefinitions>
+
+
+
+                                        <Image
+                                    Grid.Row="0"
+                                    Grid.Column="0"
+                     
+                                    Source="{StaticResource plus}"></Image>
+                                        <Label
+                                    Grid.Row="0"
+                                    Grid.Column="1"
+                                    FontAttributes="Bold"
+                                    Text=""
+                                    VerticalOptions="Center"/>
+
+                                        <Label
+                                    Grid.Row="1"
+                                    Grid.Column="1"
+                                    FontSize="10"
+                                    TextColor="Gray"
+                                    Text=""
+                                    VerticalOptions="StartAndExpand"/>
+
+
+                                        <Label
+                                    Grid.Row="0"
+                                    Grid.Column="2"
+                                    HorizontalOptions="End"
+                                    FontAttributes="Bold"
+                                    Text=""
+                                    VerticalOptions="Center"
+                                    TextColor="Green">
+                                        </Label>
+
+                                    </Grid>
+
+                                </StackLayout>
+                            </Frame>
+
+                        </StackLayout>
+
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+        </ListView>
+        </StackLayout>
+    
+    </ContentPage.Content>
+</ContentPage>
