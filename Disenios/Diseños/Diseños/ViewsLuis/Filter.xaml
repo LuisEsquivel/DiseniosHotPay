@@ -5,7 +5,7 @@
              >
 
     <NavigationPage.TitleView>
-        <Label Text="Filtrar" />
+        <Label Text="Filtrar" FontSize="50" FontAttributes="Bold" TextColor="{StaticResource ColorMain}"/>
     </NavigationPage.TitleView>
     
     <ContentPage.Content>

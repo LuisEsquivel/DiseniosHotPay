@@ -5,7 +5,7 @@
              >
 
     <NavigationPage.TitleView>
-        <Label Text="Agregar Tarjeta" />
+        <Label Text="Agregar Tarjeta" FontSize="50" FontAttributes="Bold" TextColor="{StaticResource ColorMain}"/>
     </NavigationPage.TitleView>
 
     <ContentPage.Content>
