@@ -161,15 +161,6 @@
     <BundleResource Include="Resources\ic_email.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\calendarioIcon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\calendarioIcon%402x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\calendarioIcon%403x.png" />
-  </ItemGroup>
-  <ItemGroup>
     <BundleResource Include="Resources\delete.png" />
   </ItemGroup>
   <ItemGroup>
@@ -204,5 +195,14 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\downarrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\calendarioIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\calendarioIcon%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\calendarioIcon%403x.png" />
   </ItemGroup>
 </Project>
