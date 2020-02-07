@@ -158,16 +158,37 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\agregarIcon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\tarjetaIcon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\recargarIcon.png" />
-  </ItemGroup>
-  <ItemGroup>
     <BundleResource Include="Resources\ic_email.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\calendarioIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\calendarioIcon%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\calendarioIcon%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\delete%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\delete%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\plus%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\plus%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\agregarIcon.png" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\codigodebarrasIcon.png" />
@@ -176,12 +197,9 @@
     <BundleResource Include="Resources\eliminarIcon.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\delete.png" />
+    <BundleResource Include="Resources\recargarIcon.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\plus.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\calendarioIcon.png" />
+    <BundleResource Include="Resources\tarjetaicon.png" />
   </ItemGroup>
 </Project>

@@ -13,10 +13,16 @@
 
             <!--  Imágenes  -->
             <OnPlatform
+                x:Key="Logo"
+                x:TypeArguments="ImageSource"
+                Android="Logo.png"
+                iOS="Logo.png" />
+            
+            <OnPlatform
                 x:Key="recargarIcon"
                 x:TypeArguments="ImageSource"
                 Android="recargarIcon.png"
-                iOS="recargarIcon.png" />+
+                iOS="recargarIcon.png" />
 
             <OnPlatform
                 x:Key="agregarIcon"

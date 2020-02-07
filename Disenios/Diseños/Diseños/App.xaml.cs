@@ -13,7 +13,7 @@ namespace Diseños
         {
             InitializeComponent();
             //MainPage = new LastStepPage();
-            MainPage = new AddCard();
+            MainPage = new Logo();
         }
 
         protected override void OnStart()

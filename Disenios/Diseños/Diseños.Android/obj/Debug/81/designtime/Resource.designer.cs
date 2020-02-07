@@ -2399,11 +2399,11 @@ namespace Diseños.Droid
 			// aapt resource value: 0x7F010009
 			public const int ic_email = 2130771977;
 			
-			// aapt resource value: 0x7F010018
-			public const int ic_email2 = 2130771992;
-			
 			// aapt resource value: 0x7F010019
-			public const int ic_email3 = 2130771993;
+			public const int ic_email2 = 2130771993;
+			
+			// aapt resource value: 0x7F010020
+			public const int ic_email3 = 2130772000;
 			
 			// aapt resource value: 0x7F090058
 			public const int ic_group_collapse_00 = 2131296344;
@@ -2928,7 +2928,10 @@ namespace Diseños.Droid
 			public const int ic_vol_type_tv_light = 2131296516;
 			
 			// aapt resource value: 0x7F010011
-			public const int menu = 2130771985;
+			public const int Logo = 2130771985;
+			
+			// aapt resource value: 0x7F010012
+			public const int menu = 2130771986;
 			
 			// aapt resource value: 0x7F090105
 			public const int mr_button_connected_dark = 2131296517;
@@ -3029,23 +3032,23 @@ namespace Diseños.Droid
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
-			// aapt resource value: 0x7F010012
-			public const int perfil = 2130771986;
-			
 			// aapt resource value: 0x7F010013
-			public const int plus = 2130771987;
+			public const int perfil = 2130771987;
 			
 			// aapt resource value: 0x7F010014
-			public const int punto = 2130771988;
+			public const int plus = 2130771988;
 			
 			// aapt resource value: 0x7F010015
-			public const int recargarIcon = 2130771989;
+			public const int punto = 2130771989;
 			
 			// aapt resource value: 0x7F010016
-			public const int Tarjeta = 2130771990;
+			public const int recargarIcon = 2130771990;
 			
 			// aapt resource value: 0x7F010017
-			public const int tarjetaIcon = 2130771991;
+			public const int Tarjeta = 2130771991;
+			
+			// aapt resource value: 0x7F010018
+			public const int tarjetaIcon = 2130771992;
 			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;
