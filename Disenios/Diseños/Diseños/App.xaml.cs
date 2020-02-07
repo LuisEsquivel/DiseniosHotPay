@@ -13,7 +13,7 @@ namespace Diseños
         {
             InitializeComponent();
             //MainPage = new LastStepPage();
-            MainPage = new RecoveryPassword ();
+            MainPage = new MyProfile();
         }
 
         protected override void OnStart()
