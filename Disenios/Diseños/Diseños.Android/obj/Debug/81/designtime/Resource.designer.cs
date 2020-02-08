@@ -2402,11 +2402,11 @@ namespace Diseños.Droid
 			// aapt resource value: 0x7F010010
 			public const int ic_email = 2130771984;
 			
-			// aapt resource value: 0x7F010020
-			public const int ic_email2 = 2130772000;
+			// aapt resource value: 0x7F010022
+			public const int ic_email2 = 2130772002;
 			
-			// aapt resource value: 0x7F010021
-			public const int ic_email3 = 2130772001;
+			// aapt resource value: 0x7F010023
+			public const int ic_email3 = 2130772003;
 			
 			// aapt resource value: 0x7F090058
 			public const int ic_group_collapse_00 = 2131296344;
@@ -2999,6 +2999,9 @@ namespace Diseños.Droid
 			// aapt resource value: 0x7F09005C
 			public const int navigation_empty_icon = 2131296348;
 			
+			// aapt resource value: 0x7F010014
+			public const int nota = 2130771988;
+			
 			// aapt resource value: 0x7F090001
 			public const int notification_action_background = 2131296257;
 			
@@ -3035,23 +3038,26 @@ namespace Diseños.Droid
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
-			// aapt resource value: 0x7F010014
-			public const int perfil = 2130771988;
-			
 			// aapt resource value: 0x7F010015
-			public const int plus = 2130771989;
+			public const int per = 2130771989;
 			
 			// aapt resource value: 0x7F010016
-			public const int punto = 2130771990;
+			public const int perfil = 2130771990;
 			
 			// aapt resource value: 0x7F010017
-			public const int recargarIcon = 2130771991;
+			public const int plus = 2130771991;
 			
 			// aapt resource value: 0x7F010018
-			public const int Tarjeta = 2130771992;
+			public const int punto = 2130771992;
 			
 			// aapt resource value: 0x7F010019
-			public const int tarjetaIcon = 2130771993;
+			public const int recargarIcon = 2130771993;
+			
+			// aapt resource value: 0x7F010020
+			public const int Tarjeta = 2130772000;
+			
+			// aapt resource value: 0x7F010021
+			public const int tarjetaIcon = 2130772001;
 			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;

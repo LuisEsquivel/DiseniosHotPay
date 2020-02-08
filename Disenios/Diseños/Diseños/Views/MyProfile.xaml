@@ -13,158 +13,186 @@
                 HeightRequest="220"
                 BackgroundColor="#ffffff">
 
-                <Frame BackgroundColor="Transparent"
-                       Margin="10,30,0,0"
-                       CornerRadius="50"
-                       HeightRequest="100"
-                       WidthRequest="100"
-                       IsClippedToBounds="True"
-                       HorizontalOptions="Center"
-                       VerticalOptions="Center">
-                    <Image 
-                        Source="foto.PNG"
-                        Aspect="AspectFill"
-                        Margin="-20"
-                        HeightRequest="100"
-                        WidthRequest="100" />
-                </Frame>
-                <Label Text="Uriel Quiroz"
-                       TextColor="Gray"
-                       FontAttributes="Bold"
-                       FontSize="Medium"
-                       HorizontalOptions="CenterAndExpand"/>
+
+                <Button       
+                BackgroundColor="Black"   
+                Image   ="Logo.png"
+                HorizontalOptions="Center" 
+                VerticalOptions="Center" 
+                WidthRequest="160"
+                HeightRequest="160"
+                BorderRadius = "80"
+                 >
+
+                </Button>
+                
+                
+                
+                <Label 
+                    TextColor="{StaticResource ColorGray}"
+                    FontAttributes="Bold" 
+                    Text="Uriel Quiroz" 
+                    HorizontalOptions="Center" 
+                    Margin="0,0,0,30"
+                    />
             </StackLayout>
 
-            <Grid
-                BackgroundColor="#EAEAEA">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="Auto"/>
-                </Grid.RowDefinitions>
 
-                <Image
-                    BackgroundColor="Transparent"
-                    HorizontalOptions="Start"
-                    Grid.Row="0"
-                    Source="per.png"
-                    HeightRequest="35"
-                    WidthRequest="30"
-                    Margin="50,40,0,0"/>
-                <Label
-                    Grid.Row="0"
-                    Text="Mi perfil."
-                    TextColor="Gray"
-                    Font="20"
-                    FontAttributes="Bold"
-                    HorizontalOptions="Start"
-                    Margin="100,50,0,0"/>
-                <Image
-                    BackgroundColor="Transparent"
-                    HorizontalOptions="Start"
-                    Grid.Row="1"
-                    Source="nota.png"
-                    HeightRequest="35"
-                    WidthRequest="30"
-                    Margin="50,0,0,0"/>
-                <Label
-                    Grid.Row="1"
-                    Text="Términos y condiciones"
-                    TextColor="Gray"
-                    Font="20"
-                    FontAttributes="Bold"
-                    HorizontalOptions="Start"
-                    Margin="100,10,0,0"/>
-                <Image
-                    BackgroundColor="Transparent"
-                    HorizontalOptions="Start"
-                    Grid.Row="2"
-                    Source="exit.png"
-                    HeightRequest="35"
-                    WidthRequest="30"
-                    Margin="50,0,0,0"/>
-                <Label
-                    Grid.Row="2"
-                    Text="Cerrar sesión"
-                    TextColor="Gray"
-                    Font="20"
-                    FontAttributes="Bold"
-                    HorizontalOptions="Start"
-                    Margin="99,5,0,0"/>
-            </Grid>
 
-            <Grid
-                VerticalOptions="End"
-                BackgroundColor="#ffffff">
+
+            <StackLayout VerticalOptions="End" HorizontalOptions="Center">
+
+                <Grid
+                BackgroundColor="Transparent" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="50"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+
+
+
+                    <Button
+                        Grid.Row="0"
+                        Grid.Column="0"  
+                        Image="tarjetaIcon.png"
+                        BackgroundColor="Transparent"
+                        >
+
+                    </Button>
+
+
+                    <Label 
+                        Grid.Row="0"
+                        Grid.Column="1"
+                        Style="{StaticResource LabelStyles}"
+                        Text="Mi Perfil"
+                        Margin="0,0,0,30 "
+                        >
+
+                    </Label>
+
+                    <Button
+                        Grid.Row="1"
+                        Grid.Column="0"  
+                        Image="tarjetaIcon.png"
+                        BackgroundColor="Transparent"
+                        >
+                    </Button>
+
+                    <Label 
+                        Grid.Row="1"
+                        Grid.Column="1"
+                        Style="{StaticResource LabelStyles}"
+                        Text="Términos y Condiciones"
+                        Margin="0,0,0,30 "
+                        >
+
+                    </Label>
+
+                    <Button
+                        Grid.Row="2"
+                        Grid.Column="0"  
+                        Image="tarjetaIcon.png"
+                        BackgroundColor="Transparent"           
+                        >
+
+                    </Button>
+
+                    <Label 
+                        Grid.Row="2"
+                        Grid.Column="1"
+                        Style="{StaticResource LabelStyles}"
+                        Text="Cerrar Sesión"
+                        HorizontalOptions="Start"  
+                        Margin="0,0,0,30 "
+                        >
+
+                    </Label>
+
+                </Grid>
+            </StackLayout>
+
+
+
+
+            <StackLayout VerticalOptions="EndAndExpand" HorizontalOptions="Center">
+                
+                <Grid
+                BackgroundColor="Transparent" >
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto"/>
                     <RowDefinition Height="*"/>
-                    <RowDefinition Height="Auto"/>
-                </Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                  </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="Auto"/>
                     <ColumnDefinition Width="*"/>
-                </Grid.ColumnDefinitions>
+                     <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
 
-                <Frame
-                    TranslationX="35"
-                    CornerRadius="10"
-                    BackgroundColor="Transparent"
-                    HorizontalOptions="Center"
-                    Grid.Row="0"
-                    HeightRequest="55"
-                    WidthRequest="80"
-                    Grid.Column="1"
-                    Margin="0,10,0,0">
-                    <StackLayout>
-                        <Image
-                            HorizontalOptions="Center"
-                            BackgroundColor="#ffffff" 
-                            Source="{StaticResource tarjetaIcon}"
-                            Margin="0,0,0,0"
-                            WidthRequest="30"
-                            HeightRequest="30"
-                            VerticalOptions="CenterAndExpand"/>
-                        <Label
-                            Text="Mis tarjetas"
-                            FontSize="Small"
-                            HorizontalOptions="Center"
-                            FontAttributes="Bold"
-                            BackgroundColor="#ffffff"
-                            TextColor="Gray"
-                            Margin="0,0,0,100"/>
-                    </StackLayout>
-                </Frame>
 
-                <Frame
-                    CornerRadius="10"
-                    BackgroundColor="Transparent"
-                    HorizontalOptions="Start"
-                    Grid.Row="0"
-                    HeightRequest="55"
-                    WidthRequest="50"
-                    Grid.Column="2"
-                    Margin="0,10,0,0">
+                
 
-                    <StackLayout>
-                        <Image
-                            BackgroundColor="#ffffff" 
-                            Source="menu.png"
-                            Margin="0,0,0,0"
-                            WidthRequest="30"
-                            HeightRequest="30"
-                            VerticalOptions="CenterAndExpand"/>
-                        <Label
-                            Text="Menú"
-                            FontSize="Small"
-                            HorizontalOptions="Center"
-                            FontAttributes="Bold"
-                            BackgroundColor="#ffffff"
-                            TextColor="Gray"
-                            Margin="0,0,0,100"/>
-                    </StackLayout>
-                </Frame>
-            </Grid>
+                <Button
+                        Grid.Row="0"
+                        Grid.Column="0"  
+                        Image="tarjetaIcon.png"
+                        BackgroundColor="Transparent"
+                        HorizontalOptions="Center" 
+                        >
+
+                </Button>
+
+
+                    <Label 
+                        Grid.Row="1"
+                        Grid.Column="0"
+                        Style="{StaticResource LabelStyles}"
+                        Text="Mis Tarjetas"
+                        HorizontalOptions="Center" 
+                        Margin="0,0,0,50"
+                        >
+                        
+                    </Label>
+                    
+                    <Button
+                        Grid.Row="0"
+                        Grid.Column="1"  
+                        Image="tarjetaIcon.png"
+                        BackgroundColor="Transparent"
+                        HorizontalOptions="Center" 
+                        
+                        >
+
+                    </Button>
+
+                    <Label 
+                        Grid.Row="1"
+                        Grid.Column="1"
+                        Style="{StaticResource LabelStyles}"
+                        Text="Mis Tarjetas"
+                        HorizontalOptions="Center" 
+                        Margin="0,0,0,50"
+                        >
+
+                    </Label>
+
+                </Grid>
         </StackLayout>
+          
+            
+            
+            
+            
+            
+            
+        </StackLayout>
+        
+        
+        
     </ContentPage.Content>
 </ContentPage>
