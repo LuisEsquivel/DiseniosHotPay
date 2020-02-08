@@ -78,7 +78,29 @@
                 Android="downarrow.png"
                 iOS="downarrow.png" />
 
+            <OnPlatform
+                x:Key="perfilIcon"
+                x:TypeArguments="ImageSource"
+                Android="perfilIcon.png"
+                iOS="perfilIcon.png" />
             
+            <OnPlatform
+                x:Key="menuIcon"
+                x:TypeArguments="ImageSource"
+                Android="menuIcon.png"
+                iOS="menuIcon.png" />
+
+            <OnPlatform
+                x:Key="terminosycondicionesIcon"
+                x:TypeArguments="ImageSource"
+                Android="terminosycondicionesIcon.png"
+                iOS="terminosycondicionesIcon.png" />
+
+            <OnPlatform
+                x:Key="exitIcon"
+                x:TypeArguments="ImageSource"
+                Android="exitIcon.png"
+                iOS="exitIcon.png" />
 
             <!--  Colores  -->
 

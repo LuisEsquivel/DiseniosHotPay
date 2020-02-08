@@ -3,131 +3,129 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Diseños.Views.MyProfile">
     <ContentPage.Content>
-        <StackLayout
-            Padding="5"
-            BackgroundColor="#EAEAEA">
-
-            <StackLayout
-                Padding="5"
-                VerticalOptions="Start"
-                HeightRequest="220"
-                BackgroundColor="#ffffff">
+        
+        <StackLayout>
 
 
-                <Button       
-                BackgroundColor="Black"   
-                Image   ="Logo.png"
-                HorizontalOptions="Center" 
-                VerticalOptions="Center" 
-                WidthRequest="160"
-                HeightRequest="160"
-                BorderRadius = "80"
-                 >
+            <Frame Margin="10,30"
+               BorderColor="Black"
+               CornerRadius="80"
+               HeightRequest="120"
+               WidthRequest="120"
+               IsClippedToBounds="True"
+               HorizontalOptions="Center"
+               VerticalOptions="Center">
+                    <Image Source="foto.png"
+                 Aspect="AspectFill"
+                 Margin="-20"
+                 HeightRequest="100"
+                 WidthRequest="120" />  
+            </Frame>
 
-                </Button>
-                
-                
-                
-                <Label 
+
+            <Label 
                     TextColor="{StaticResource ColorGray}"
                     FontAttributes="Bold" 
+                    FontSize="20"
                     Text="Uriel Quiroz" 
                     HorizontalOptions="Center" 
-                    Margin="0,0,0,30"
+                    Margin="0,0,0,50"
                     />
-            </StackLayout>
 
 
 
 
-            <StackLayout VerticalOptions="End" HorizontalOptions="Center">
+            <StackLayout>
 
-                <Grid
-                BackgroundColor="Transparent" >
+                <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="*"/>
-                        <RowDefinition Height="*"/>
-                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="50"/>
                     </Grid.RowDefinitions>
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="50"/>
+                        <ColumnDefinition Width="Auto"/>
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
 
 
 
-
                     <Button
                         Grid.Row="0"
                         Grid.Column="0"  
-                        Image="tarjetaIcon.png"
-                        BackgroundColor="Transparent"
+                        Image="perfilIcon"
+                        BackgroundColor="Transparent"   
+                        HorizontalOptions="End" 
                         >
 
                     </Button>
 
 
-                    <Label 
+                        <Label 
                         Grid.Row="0"
                         Grid.Column="1"
                         Style="{StaticResource LabelStyles}"
                         Text="Mi Perfil"
-                        Margin="0,0,0,30 "
+                        Margin="0,0,10,0 "
+                        VerticalOptions="Center" 
                         >
 
-                    </Label>
+                        </Label>
 
-                    <Button
+
+
+                        <Button
                         Grid.Row="1"
                         Grid.Column="0"  
-                        Image="tarjetaIcon.png"
+                        Image="terminosycondicionesIcon"
                         BackgroundColor="Transparent"
+                        HorizontalOptions="End" 
                         >
                     </Button>
 
-                    <Label 
+                        <Label 
                         Grid.Row="1"
                         Grid.Column="1"
                         Style="{StaticResource LabelStyles}"
                         Text="Términos y Condiciones"
-                        Margin="0,0,0,30 "
+                        VerticalOptions="Center" 
+                        Margin="0,0,10,0 "
                         >
+                        </Label>
 
-                    </Label>
 
-                    <Button
+                        <Button
                         Grid.Row="2"
                         Grid.Column="0"  
-                        Image="tarjetaIcon.png"
-                        BackgroundColor="Transparent"           
+                        Image="exitIcon"
+                        BackgroundColor="Transparent" 
+                        HorizontalOptions="End" 
                         >
 
-                    </Button>
+                        </Button>
 
-                    <Label 
+                        <Label 
                         Grid.Row="2"
                         Grid.Column="1"
                         Style="{StaticResource LabelStyles}"
-                        Text="Cerrar Sesión"
-                        HorizontalOptions="Start"  
-                        Margin="0,0,0,30 "
+                        Text="Cerrar Sesión" 
+                        VerticalOptions="Center" 
+                        Margin="0,0,10,0 "
                         >
+                        </Label>
 
-                    </Label>
 
                 </Grid>
             </StackLayout>
 
 
 
-
-            <StackLayout VerticalOptions="EndAndExpand" HorizontalOptions="Center">
+            <StackLayout VerticalOptions="EndAndExpand" >
                 
-                <Grid
-                BackgroundColor="Transparent" >
+                <Grid>
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
                   </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
@@ -140,9 +138,11 @@
                 <Button
                         Grid.Row="0"
                         Grid.Column="0"  
-                        Image="tarjetaIcon.png"
+                        Image="tarjetaIcon"
                         BackgroundColor="Transparent"
-                        HorizontalOptions="Center" 
+                        HorizontalOptions="Center"
+                        VerticalOptions="End" 
+                        Margin="0,15,0,0"
                         >
 
                 </Button>
@@ -153,20 +153,21 @@
                         Grid.Column="0"
                         Style="{StaticResource LabelStyles}"
                         Text="Mis Tarjetas"
+                        Margin="0,0,0,20"
+                        VerticalOptions="Start" 
                         HorizontalOptions="Center" 
-                        Margin="0,0,0,50"
-                        >
+                      >
                         
                     </Label>
                     
                     <Button
                         Grid.Row="0"
                         Grid.Column="1"  
-                        Image="tarjetaIcon.png"
+                        Image="menuIcon"
                         BackgroundColor="Transparent"
-                        HorizontalOptions="Center" 
-                        
-                        >
+                        HorizontalOptions="Center"
+                        VerticalOptions="End" 
+                        Margin="0,15,0,0"                        >
 
                     </Button>
 
@@ -174,9 +175,10 @@
                         Grid.Row="1"
                         Grid.Column="1"
                         Style="{StaticResource LabelStyles}"
-                        Text="Mis Tarjetas"
+                        Text="Menú"
+                        Margin="0,0,0,20"
                         HorizontalOptions="Center" 
-                        Margin="0,0,0,50"
+                        VerticalOptions="Start" 
                         >
 
                     </Label>
@@ -184,12 +186,7 @@
                 </Grid>
         </StackLayout>
           
-            
-            
-            
-            
-            
-            
+      
         </StackLayout>
         
         
